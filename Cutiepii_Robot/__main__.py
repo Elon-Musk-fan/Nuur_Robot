@@ -59,7 +59,7 @@ A Powerful Telegram Probot with a lot of Special Features !!
 
 You can find my list of available commands with /help.
 
-Maintained by [Roxy Rose](http://t.me/galaxy_chat_hub_ii)
+Maintained by [꧁𝕽𝔬𝔵𝒚 ℛ𝑜𝑠𝑒 ꧂](http://t.me/galaxy_chat_hub_ii)
 
 """
 
@@ -74,7 +74,6 @@ the things I can help you with.-
  💠 /settings:
    ✨ in PM: will send you your settings for all supported modules.
    ✨ in a group: will redirect you to pm, with all that chat's settings.
-
 
 {}
 And the following:
@@ -212,7 +211,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Support Chat",
-                             url="https://t.me/{galaxy_chat_hub}"),
+                             url="https://t.me/galaxy_chat_hub"),
                          InlineKeyboardButton(
                              text="Creator",
                              url="https://t.me/galaxy_chat_hub_ii")
