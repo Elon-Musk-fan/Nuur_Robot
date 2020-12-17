@@ -32,7 +32,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rajkumar-27/CutiepiiRobot.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Roxy-Rose/Nuur_Robot.git)
 
 </details>  
 <details>
@@ -60,7 +60,7 @@ from CutiepiiRobot.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 974650192  # your telegram ID
-    OWNER_USERNAME = "Wadiwala_Tech"  # your telegram username
+    OWNER_USERNAME = "galaxy_chat_hub_ii"  # your telegram username
     API_KEY = "your bot api key"  # your api key, as provided by the @botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     JOIN_LOGGER = '-1234567890' # some group chat that your bot is a member of
