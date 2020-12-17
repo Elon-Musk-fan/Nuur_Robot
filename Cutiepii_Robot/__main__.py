@@ -212,9 +212,9 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Support Chat",
-                             url=f"https://t.me/{galaxy_chat_hub}"),
+                             url="https://t.me/{galaxy_chat_hub}"),
                          InlineKeyboardButton(
-                             text="Updates Channel",
+                             text="Creator",
                              url="https://t.me/galaxy_chat_hub_ii")
                      
                      ]]))
