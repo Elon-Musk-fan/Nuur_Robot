@@ -51,30 +51,29 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}!
+Hello {}
 
-I am an Anime themed advance group management bot with a lot of Special Features.
+my name is {}
 
-FREE MOVIES AND SERIES ON [HINDI K DRAMA](https://Hindikdrama.xyz)
+A Powerful Telegram Probot with a lot of Special Features !!
 
 You can find my list of available commands with /help.
 
-Maintained by [Rajkumar](http://t.me/Awesome_RJ)
+Maintained by [Roxy Rose](http://t.me/galaxy_chat_hub_ii)
 
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a heroine For Fun and help admins manage their groups with Cutiepii! Have a look at the following for an idea of some of \
+I'm a pro group management bot with few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.-
 
 *Main* commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+ 💠 /help: PM's you this message.
+ 💠 /help <module name>: PM's you info about that module.
+ 💠 /settings:
+   ✨ in PM: will send you your settings for all supported modules.
+   ✨ in a group: will redirect you to pm, with all that chat's settings.
 
 
 {}
@@ -83,12 +82,12 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/ac68ce78fd9c723304ada.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/653c8748325a15d1c2133.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Cutiepii is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Rajkumar
-There are two ways of supporting him; [PayPal](paypal.me/wadwialatech), or [Ko-Fi](ko-fi.com/Rajkumar)."""
+Nuur is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
+You can donate to the original writer of the Base code, Roxy Rose
+roxy rose ( @galaxy_chat_hub_ii ) don't want any donation but glad to see you hear ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -206,22 +205,18 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add Cutiepii to your group",
+                            text="Add Nuur to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Chat",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/{galaxy_chat_hub}"),
                          InlineKeyboardButton(
                              text="Updates Channel",
-                             url="https://t.me/Techno_Ocean")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="Source Code (Licensed Under GPLv3)",
-                             url="https://github.com/Rajkumar-27/CutiepiiRobot")
+                             url="https://t.me/galaxy_chat_hub_ii")
+                     
                      ]]))
     else:
         update.effective_message.reply_text(
@@ -325,7 +320,7 @@ def get_help(update: Update, context: CallbackContext):
         if len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
             module = args[1].lower()
             update.effective_message.reply_text(
-                f"Contact me in PM to get help of {module.capitalize()}",
+                f"Hey there! Catch me in PM to get help of {module.capitalize()}",
                 reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton(
                         text="Help",
