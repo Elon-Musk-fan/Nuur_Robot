@@ -1,6 +1,6 @@
 
 __help__ = """
-*Gif and Images:*
+ ✨*Gif and Images:*
  • `/pat`*:* pats a user by a reply to the message.
  • `/neko`*:* sends random neko image
  • `/hug`*:* sends random hug gif
@@ -15,21 +15,21 @@ __help__ = """
  • `/feed`*:* sends random feed gif
  • `/wallpaper`*:* sends random best anime wallpapers.
  
-  *Extra Fun With Cutiepii:*
+  ✨*Extra Fun With Nuur :*
  • `/qu`*:* quote a replied message. Like QuotLyBot
  • `/aq`*:* get random anime quote.
  • `/zombies`*:* Search and remove Deleted Accounts from Group.
  • `/plet <your text> `*:* text get funny emojify.
  • `/tts <your text> `*:*  text to speech.
  
- *Truth And Dare:*
+  ✨*Truth And Dare:*
  • `/Truth`*:* for random truth.
  • `/dare`*:* for random dare.
  
-  *Song:*
+  ✨*Song:*
  • `/song <songname artist(optional)> `*:* uploads the song in it's best quality available
  • `/video <songname artist(optional)> `*:* uploads the video song in it's best quality available
 """
 
 
-__mod_name__ = "Cutie"
+__mod_name__ = "Nuur"
