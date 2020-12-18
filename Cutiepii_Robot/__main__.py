@@ -328,7 +328,7 @@ def get_help(update: Update, context: CallbackContext):
                 ]]))
             return
         update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+            "Catch me in PM to get the list of my all possible commands.",
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
                     text="Help",
