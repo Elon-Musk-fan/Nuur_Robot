@@ -1,4 +1,3 @@
-auto_py_to_exe
 future
 emoji
 lxml
