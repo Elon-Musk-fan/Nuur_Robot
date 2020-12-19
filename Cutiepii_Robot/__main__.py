@@ -59,7 +59,7 @@ A Powerful Telegram Probot with a lot of Special Features !!
 
 You can find my list of available commands with /help.
 
-Maintained by [꧁𝕽𝔬𝔵𝒚 ℛ𝑜𝑠𝑒 ꧂](http://t.me/galaxy_chat_hub_ii)
+Maintained by [𓊈✧𝐸𝓁𝑜𝓃𝑀𝓊𝓈𝓀✧𓊉ꪶ࿋྄ིᤢꫂ](http://t.me/I_m_Elon_Musk)
 
 """
 
@@ -81,7 +81,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/653c8748325a15d1c2133.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/1922d4c6bbd879edbc5bc.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Nuur is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
